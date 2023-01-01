@@ -1,0 +1,14 @@
+This module implements the MediaTek Thermal HAL2.0.
+
+WHAT IT DOES?
+=============
+1. return temperature of cpu/gpu/battery/Tskin/md pa to framework.
+2. return cpu usage to framework.
+3. return cooling device list to framework.
+4. receive thermal uevent and send notification to framework.
+
+HOW TO USE IT?
+==============
+use interface of thermal hal 2.0 via hidl interface
+please refer hardware\interfaces\thermal\2.0\IThermal.hal
+
